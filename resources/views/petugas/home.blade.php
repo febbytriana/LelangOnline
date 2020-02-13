@@ -16,11 +16,7 @@
 
                     You are logged in!
 
-                    @if(Auth::user()->id_level==1)
-                        <p>Admin</p>
-                    @else
                         <p>Petugas</p>
-                    @endif
                 </div>
             </div>
         </div>
